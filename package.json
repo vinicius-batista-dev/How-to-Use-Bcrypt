@@ -1,0 +1,30 @@
+{
+  "name": "how-to-use-bcrypt",
+  "version": "1.0.0",
+  "description": "Bcrypt is a package that helps developers to encrypt the user's password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius-batista-dev/How-to-Use-Bcrypt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicius-batista-dev/How-to-Use-Bcrypt/issues"
+  },
+  "homepage": "https://github.com/vinicius-batista-dev/How-to-Use-Bcrypt#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.2",
+    "sequelize": "^6.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
