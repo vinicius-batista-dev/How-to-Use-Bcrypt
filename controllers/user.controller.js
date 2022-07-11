@@ -4,7 +4,6 @@ const Op = db.Sequelize.Op;
 const bcrypt = require('bcrypt');
 
 
-//Criar um novo usuário e criptogrando a senha
 exports.create = (req, res) => {
     const salt = bcrypt.genSaltSync(10);
     const hash = bcrypt.hashSync(req.body.password, salt);
